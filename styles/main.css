@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./../images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color: white;
+}
+
+#containor{
+    max-width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: fit-content;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+#containor .off{
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: lightgray;
+    color: gray;
+}
+
+.on{
+    transform: scale(1.25);
+    opacity: 1;
+    background-color: white !important;
+    color: black !important;
+    box-shadow:  0 5px 15px 0 rgba(255, 255, 255, 0.555), 0 10px 30px 0 rgba(255, 254, 254, 0.555);
+}
